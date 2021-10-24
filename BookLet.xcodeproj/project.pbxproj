@@ -16,6 +16,8 @@
 		0D9560F9272482430041E371 /* BookLetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9560F8272482430041E371 /* BookLetTests.swift */; };
 		0D956103272482430041E371 /* BookLetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D956102272482430041E371 /* BookLetUITests.swift */; };
 		0D956105272482430041E371 /* BookLetUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D956104272482430041E371 /* BookLetUITestsLaunchTests.swift */; };
+		0D956112272485390041E371 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D956111272485390041E371 /* APICaller.swift */; };
+		0D9561142724993F0041E371 /* BooksTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9561132724993F0041E371 /* BooksTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		0D9560FE272482430041E371 /* BookLetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookLetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D956102272482430041E371 /* BookLetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookLetUITests.swift; sourceTree = "<group>"; };
 		0D956104272482430041E371 /* BookLetUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookLetUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0D956111272485390041E371 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		0D9561132724993F0041E371 /* BooksTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				0D9560EA272482420041E371 /* Assets.xcassets */,
 				0D9560EC272482420041E371 /* LaunchScreen.storyboard */,
 				0D9560EF272482420041E371 /* Info.plist */,
+				0D956111272485390041E371 /* APICaller.swift */,
+				0D9561132724993F0041E371 /* BooksTableViewCell.swift */,
 			);
 			path = BookLet;
 			sourceTree = "<group>";
@@ -258,9 +264,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D9561142724993F0041E371 /* BooksTableViewCell.swift in Sources */,
 				0D9560E62724823C0041E371 /* ViewController.swift in Sources */,
 				0D9560E22724823C0041E371 /* AppDelegate.swift in Sources */,
 				0D9560E42724823C0041E371 /* SceneDelegate.swift in Sources */,
+				0D956112272485390041E371 /* APICaller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
