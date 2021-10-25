@@ -15,6 +15,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return viewModels.count
     }
+    let collection = 0 
     private var viewModels = [BooksTableViewCellViewModel]()
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -34,12 +35,13 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     private let tableView : UITableView = {
         let table = UITableView()
         table.register(BooksTableViewCell.self, forCellReuseIdentifier: BooksTableViewCell.identifier)
+       
         return table
     }()
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        title = "BookLet"
+        //title = "BookLet"
         view.addSubview(tableView)
         tableView.delegate = self
         tableView.dataSource = self
